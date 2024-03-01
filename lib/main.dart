@@ -30,7 +30,7 @@ class _LoginPageState extends State<LoginPage> {
 
   void _login(BuildContext context) {
     // Dummy login logic. Replace this with your actual authentication logic.
-    if (_usernameController.text == 'vinit' && _passwordController.text == 'vinit7541') {
+    if (_usernameController.text == 'addyourusername' && _passwordController.text == 'addyourpassword') {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => HomePage()),

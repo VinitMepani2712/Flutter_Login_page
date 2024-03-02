@@ -125,7 +125,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           title: const Text(
-          'Welcome Home!',
+          'Welcome Back!',
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
@@ -156,7 +156,7 @@ class HomePage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 // Navigate back to login page
-                Navigator.popUntil(context, ModalRoute.withName('LoginPage()'));
+                Navigator.popUntil(context, ModalRoute.withName());
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.red,
